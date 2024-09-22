@@ -3,10 +3,7 @@
 use App\Http\Controllers\CurdController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', [CurdController::class, 'index']);
 Route::prefix('curd')->group(function () {
     Route::get('/home', [CurdController::class, 'index'])->name('home');
     Route::get('/add', [CurdController::class, 'add'])->name('add');
