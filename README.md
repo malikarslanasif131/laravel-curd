@@ -9,7 +9,7 @@
 
 ## About This Project
 
-**mytest1** is a simple Laravel-based CRUD (Create, Read, Update, Delete) application, designed to demonstrate basic operations in Laravel. The project allows users to manage records in a database, showcasing essential functionality for managing data using Laravel.
+**Laravel CRUD** is a simple Laravel-based CRUD (Create, Read, Update, Delete) application, designed to demonstrate basic operations in Laravel. The project allows users to manage records in a database, showcasing essential functionality for managing data using Laravel.
 
 ### Features
 
